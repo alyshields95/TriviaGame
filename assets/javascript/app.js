@@ -98,7 +98,7 @@ $(document).ready(function(){
       })
       
     },
-    // 
+    //timer function
     timerRunning : function(){
      
       if(trivia.timer > -1 && trivia.currentSet < Object.keys(trivia.questions).length){
